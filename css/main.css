@@ -3,8 +3,13 @@
     padding: 0%;
 }
 
-body{
+header {
+    background-color: #253824dc;
+    position: sticky;
+}
 
+body{
+    background-color: rgb(173, 159, 141);
 }
 
 main{
@@ -14,4 +19,15 @@ main{
 
 footer{
     margin: 100px;
+    font-size: 1.1em;
+}
+
+.main-footer{
+    position: relative;
+    font-size: 14px;
+    padding: 50px 25px;
+
+}
+.main-footer .legal a:link, .legal a:visited{
+    color: cadetblue;
 }
