@@ -1,15 +1,55 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', Verdana, sans-serif; 
+    /*replace this with this with downloaded font-family, same for other font-variants etc */
 }
 
-header {
-    background-color: #c2d3e0c1;    
-    position: fixed;
-}
 body{
     background-color: rgb(9, 9, 8);
 }
+
+header {   
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(218, 226, 226);
+    word-spacing: 10px;
+    height: 100px;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: azure;
+
+}
+ul {
+    padding-left: 25px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+}
+
+ul li a {
+    display: block;
+    font-style: oblique;
+    text-decoration: none;
+    font-size: 14px;
+    padding:  0 35px;
+
+} 
+
+ul li a :active {
+    color: rgb(117, 70, 12);
+}
+
+ul li a :hover {
+    color: coral;
+}
+
 
 main{
     padding: 200px;
@@ -18,5 +58,6 @@ main{
 
 footer{
     margin: 100px;
+    float:inline-end;
     font-size: 1.1em;
 }
